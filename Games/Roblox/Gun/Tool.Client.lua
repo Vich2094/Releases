@@ -17,9 +17,6 @@ end
 local Config = require(Tool:task.waitForChild("Config"))
 local Humanoid = Character:task.waitForChild("Humanoid")
 
-local ReplicatedStorage = game:GetService('ReplicatedStorage')
-local Event = ReplicatedStorage:task.waitForChild('Event')
-
 local EquipAnimation = Instance.new("Animation", Tool)
 EquipAnimation.AnimationId = "rbxassetid://"..Config.EquipAnimationID
 EquipAnimation.Parent = Tool
