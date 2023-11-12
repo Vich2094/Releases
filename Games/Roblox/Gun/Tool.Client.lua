@@ -11,14 +11,14 @@ local TweenService = game:GetService("TweenService")
 
 while not Character or not Character.Parent do
 	Character = Player.Character
-	wait()
+	task.wait()
 end
 
-local Config = require(Tool:WaitForChild("Config"))
-local Humanoid = Character:WaitForChild("Humanoid")
+local Config = require(Tool:task.waitForChild("Config"))
+local Humanoid = Character:task.waitForChild("Humanoid")
 
 local ReplicatedStorage = game:GetService('ReplicatedStorage')
-local Event = ReplicatedStorage:WaitForChild('Event')
+local Event = ReplicatedStorage:task.waitForChild('Event')
 
 local EquipAnimation = Instance.new("Animation", Tool)
 EquipAnimation.AnimationId = "rbxassetid://"..Config.EquipAnimationID
@@ -33,7 +33,7 @@ local IdleTrack = Humanoid:LoadAnimation(IdleAnimation)
 
 Tool.Equipped:Connect(function()
 	Debounce = false
-	wait(EquipTrack)
+	task.wait(EquipTrack)
 	
 	EquipTrack:Play()
 	EquipTrack:AdjustSpeed(Config.EquipAnimationSpeed)
