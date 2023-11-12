@@ -1,0 +1,6 @@
+<meta>
+	<info author="OpenRP" type="script" version="1.0e" description="OpenRP - Job System"/>
+
+	<script src="jobs_s.lua" type="server"/>
+	<script src="jobs_c.lua" type="client"/>
+</meta>

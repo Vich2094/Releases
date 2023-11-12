@@ -1,0 +1,4 @@
+// CSO Deatmatch Settings
+amx_cvar mp_forcerespawn 2
+
+Put this command in amxx.cfg!

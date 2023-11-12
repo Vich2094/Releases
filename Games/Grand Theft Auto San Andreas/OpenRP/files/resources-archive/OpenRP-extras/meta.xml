@@ -1,0 +1,6 @@
+<meta>
+	<info author="OpenRP" type="script" version="1.0e" description="OpenRP - Extra Stuff"/>
+
+	<script src="money.lua"/>
+	<script src="payday.lua"/>
+</meta>

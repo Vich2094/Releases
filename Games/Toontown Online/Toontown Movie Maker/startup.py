@@ -1,0 +1,1 @@
+from toonimator.base import ToonimatorStart

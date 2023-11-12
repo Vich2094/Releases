@@ -1,0 +1,6 @@
+<meta>
+	<info author="OpenRP" type="script" version="1.0e" description="OpenRP - Admin Commands"/>
+
+	<script src="client.lua" type="client"/>
+	<script src="server.lua" type="server"/>
+</meta>

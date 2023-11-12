@@ -1,0 +1,6 @@
+<meta>
+	<info author="OpenRP" version="1.0e" name="OpenRP - Weather System" type="script"/>
+
+	<script src="server.lua" type="server" />
+	<script src="client.lua" type="client" />
+</meta>
